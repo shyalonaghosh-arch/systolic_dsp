@@ -1,12 +1,4 @@
-"""
-visualizer.py
-=============
-Person 3 — Visualization & Animation Dashboard
-Full matplotlib dashboard: systolic array animation, signal plots,
-frequency response, heatmap, benchmark bar charts.
 
-Run:  python visualizer.py
-"""
 
 import os
 OUT = os.path.dirname(os.path.abspath(__file__))
