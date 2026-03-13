@@ -1,9 +1,4 @@
-"""
-dsp_signals.py
-==============
-Person 2 — DSP Signal Layer & Benchmarking
-Generates test signals, runs benchmark comparisons, computes performance metrics.
-"""
+
 
 import numpy as np
 import time
