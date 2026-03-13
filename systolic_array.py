@@ -1,17 +1,4 @@
-"""
-systolic_array.py
-=================
-Person 1 — Core Engine
-Systolic Array simulation for FIR Filter (convolution) in DSP.
 
-A 1D systolic array where:
-  - Each Processing Element (PE) holds one FIR tap coefficient
-  - Input samples pump through left-to-right each clock cycle
-  - Each PE multiplies its coefficient × incoming sample, accumulates
-  - Partial sums propagate left-to-right and are drained after N cycles
-
-This models a weight-stationary systolic FIR filter.
-"""
 
 import numpy as np
 from dataclasses import dataclass, field
